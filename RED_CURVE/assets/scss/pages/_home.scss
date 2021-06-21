@@ -1,0 +1,60 @@
+/*==========MAIN START==========*/
+main{
+    background-color: $bg-main;
+    // Slider Section Start //
+    .slider{
+        background-color: $bg-red;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        height: 39rem;
+        
+    }
+
+    // Slider Section End//
+
+
+    // Services Section Start //
+
+    .services{
+        padding: 0 2rem;
+
+      .services-items{
+          display: flex;
+          margin-bottom:  4rem;
+      
+         .services-title{
+           display: flex;
+         }
+    
+        
+        }
+     }
+
+    // Slider Section End //
+
+
+    // Recent Section Start //
+    .recent{
+        .recent-items{
+            display: flex;
+
+            .recent-item{
+                padding: 1.5rem;
+                margin: 0 20px 20px 0;
+             }
+
+        }
+     
+       
+        
+
+       
+    }
+
+    // Recent Section End //
+
+
+}
+
+/*==========MAIN END==========*/

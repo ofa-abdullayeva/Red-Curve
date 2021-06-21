@@ -1,0 +1,22 @@
+/*Variables*/
+$color-light: white;
+$bg-red: #980205;
+$bg-main:#f1f1f1;
+$bg-header:rgb(229, 229, 229);
+
+// colors starts
+:root {
+	--black: #000;
+	--white: #fff;
+
+}
+
+.dark-mode {
+	--black: #fff;
+	--white: #000;
+
+}
+// colors ends
+
+// fonts
+$font-roboto: "Roboto", sans-serif;

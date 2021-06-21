@@ -1,0 +1,192 @@
+/*Variables*/
+:root {
+  --black: #000;
+  --white: #fff;
+}
+
+.dark-mode {
+  --black: #fff;
+  --white: #000;
+}
+
+/*Mixins*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.4rem;
+}
+
+html {
+  font-size: 10px;
+}
+
+.container {
+  max-width: 114rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 2.4rem;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 1.4rem;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin: 0 0 1.5rem;
+}
+
+.mb-3 {
+  margin-bottom: 3rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*==========NAVIGATION START==========*/
+/*==========NAVIGATION END==========*/
+/*==========HEADER START==========*/
+header {
+  background-color: #e5e5e5;
+}
+
+header .header-logo {
+  text-align: center;
+}
+
+header .header-logo h1 {
+  border-radius: 3rem;
+}
+
+header .header-logo a {
+  padding: 4rem;
+  background-color: #e5e5e5;
+}
+
+header .nav-menu {
+  height: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: #980205;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+}
+
+header .nav-menu li {
+  padding: 3rem;
+  margin: 0 1rem;
+}
+
+header .nav-menu a {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: white;
+}
+
+/*==========HEADER END==========*/
+/*==========FOOTER START==========*/
+footer {
+  background-color: #980205;
+  padding: 7rem 1.5rem 2.5rem;
+  color: #ae9697;
+}
+
+footer .footer-main {
+  display: flex;
+  width: 100%;
+  margin: 0 20px 20px 0;
+}
+
+footer .footer-main .blogrol, footer .footer-main .twitter, footer .footer-main .follow, footer .footer-main .about {
+  width: 25%;
+  margin: 0 20px 20px 0;
+}
+
+footer .footer-main .footer-social {
+  margin-bottom: 4rem;
+}
+
+footer .footer-main .footer-social a {
+  margin-right: 1rem;
+}
+
+footer .footer-main .footer-social img {
+  border: none;
+}
+
+footer .footer-main li {
+  margin: 0 0 0.5rem;
+  padding: 0 0 0.5rem;
+  border-bottom: 1px dotted #5c0103;
+}
+
+footer .footer-main a {
+  color: #dacdcd;
+}
+
+/*==========FOOTER END==========*/
+/*==========MAIN START==========*/
+main {
+  background-color: #f1f1f1;
+}
+
+main .slider {
+  background-color: #980205;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 39rem;
+}
+
+main .services {
+  padding: 0 2rem;
+}
+
+main .services .services-items {
+  display: flex;
+  margin-bottom: 4rem;
+}
+
+main .services .services-items .services-title {
+  display: flex;
+}
+
+main .recent .recent-items {
+  display: flex;
+}
+
+main .recent .recent-items .recent-item {
+  padding: 1.5rem;
+  margin: 0 20px 20px 0;
+}
+
+/*==========MAIN END==========*/
+/*Media Query 1200px start*/
+/*Media Query 1200px end*/
+/*Media Query 992px start*/
+/*Media Query 992px end*/
+/*Media Query 768px start*/
+/*Media Query 768px end*/
+/*Media Query 576px start*/
+/*Media Query 576px end*/
+/*# sourceMappingURL=main.css.map */

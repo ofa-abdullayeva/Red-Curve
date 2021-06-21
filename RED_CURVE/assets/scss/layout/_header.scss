@@ -1,0 +1,44 @@
+/*==========HEADER START==========*/
+header {
+	background-color: $bg-header;
+
+	.header-logo{
+		text-align: center;
+		h1{
+			
+			border-radius: 3rem;
+		}
+		a{
+			padding: 4rem;
+			background-color: $bg-header;
+			
+		}
+	}
+
+	.nav-menu{
+		height: 12rem;
+		display: flex;
+		justify-content: center;
+		align-items:flex-end;
+		background-color: $bg-red;
+		border-top-right-radius: 50%;
+		border-top-left-radius: 50%;
+
+
+		li{
+			padding: 3rem;
+			margin: 0 1rem;
+			
+		}
+		a{
+			font-size: 1.6rem;
+			font-weight: 700;
+			color: $color-light;
+		}
+	}
+}
+
+
+
+
+/*==========HEADER END==========*/

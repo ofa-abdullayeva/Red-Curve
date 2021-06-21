@@ -1,0 +1,41 @@
+/*==========FOOTER START==========*/
+footer{
+    background-color: $bg-red;
+    padding: 7rem 1.5rem 2.5rem;
+    color: #ae9697;
+
+    .footer-main{
+        
+        display: flex;
+        width: 100%;
+        margin: 0 20px 20px 0;
+
+        .blogrol,.twitter,.follow,.about{
+            width: 25%;
+            margin: 0 20px 20px 0;
+        }
+
+        .footer-social{
+            margin-bottom: 4rem;
+            a{
+                margin-right: 1rem;
+            }
+            img{
+                border: none;
+            }
+        }
+       
+
+        li{
+            margin: 0 0 0.5rem;
+            padding: 0 0 0.5rem;
+            border-bottom: 1px dotted #5c0103;
+        }
+
+        a{
+            color: #dacdcd;
+        }
+    }
+        
+}
+/*==========FOOTER END==========*/
