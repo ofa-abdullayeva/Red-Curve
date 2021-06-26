@@ -71,15 +71,7 @@ header {
 
 header .header-logo {
   text-align: center;
-}
-
-header .header-logo h1 {
-  border-radius: 3rem;
-}
-
-header .header-logo a {
-  padding: 4rem;
-  background-color: #e5e5e5;
+  padding: 2rem;
 }
 
 header .nav-menu {
@@ -165,6 +157,10 @@ main .services {
 main .services-items {
   display: flex;
   margin-bottom: 4rem;
+}
+
+main .services-item {
+  padding: 0 2rem 2rem 0;
 }
 
 main .services-title {
