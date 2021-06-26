@@ -62,8 +62,6 @@ a:hover {
   text-decoration: underline;
 }
 
-/*==========NAVIGATION START==========*/
-/*==========NAVIGATION END==========*/
 /*==========HEADER START==========*/
 header {
   background-color: #e5e5e5;
@@ -148,6 +146,10 @@ main .slider {
   justify-content: space-between;
   align-items: center;
   height: 39rem;
+}
+
+main .slider img {
+  width: 100%;
 }
 
 main .services {
