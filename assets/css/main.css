@@ -22,8 +22,8 @@
 
 body {
   font-family: Tahoma, Geneva, sans-serif;
-  font-size: 1.3rem;
-  line-height: 1.4rem;
+  font-size: 1.4rem;
+  line-height: 2rem;
 }
 
 html {
@@ -162,13 +162,23 @@ main .services {
   padding: 0 2rem;
 }
 
-main .services .services-items {
+main .services-items {
   display: flex;
   margin-bottom: 4rem;
 }
 
-main .services .services-items .services-title {
+main .services-title {
   display: flex;
+  align-items: center;
+}
+
+main .services .logo {
+  margin-right: 1rem;
+}
+
+main .services-description {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 main .recent .recent-items {

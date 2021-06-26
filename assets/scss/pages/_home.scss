@@ -19,19 +19,27 @@ main{
     .services{
         padding: 0 2rem;
 
-      .services-items{
+        &-items{
           display: flex;
           margin-bottom:  4rem;
-      
-         .services-title{
-           display: flex;
-         }
-    
-        
         }
+      
+        &-title{
+           display: flex;
+           align-items: center;
+         }
+         .logo{
+             margin-right: 1rem;
+         }
+
+        &-description{
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+     
      }
 
-    // Slider Section End //
+    // Services Section End //
 
 
     // Recent Section Start //
