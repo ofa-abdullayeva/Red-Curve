@@ -154,6 +154,10 @@ main .services {
   padding: 0 2rem;
 }
 
+main .services .container {
+  border-bottom: 0.1rem solid;
+}
+
 main .services-items {
   display: flex;
   margin-bottom: 4rem;

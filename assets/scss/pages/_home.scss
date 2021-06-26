@@ -18,8 +18,11 @@ main{
 
     .services{
         padding: 0 2rem;
-
+        .container{
+            border-bottom: 0.1rem solid;
+        }
         &-items{
+         
           display: flex;
           margin-bottom:  4rem;
           
